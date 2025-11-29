@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lost & Found Admin Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        /* Layout Wrapper */
+        .layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: #474747;
+            color: white;
+            padding: 20px;
+            font-size: 25px;
+            font-style: Times New Roman;
+            font-weight: bold;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        /* Right content area */
+        .content {
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Header Bar */
+        .header {
+            background: #ffffff;
+            padding: 15px 20px;
+            border: 2px solid blue;
+            border-radius: 7px;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Small Cards */
+        .mini-cards {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            flex: 1;
+            background: #ffffff;
+            border: 2px solid blue;
+            border-radius: 7px;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* Analytics Box */
+        .analytics-box {
+            background: #ffffff;
+            border: 1px solid #c9d3e0;
+            padding: 20px;
+            height: 500px;
+        }
+
+        .analytics-title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        canvas {
+            width: 100% !important;
+            height: 350px !important;
+        }
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+    <!-- LEFT SIDEBAR -->
+    <div class="sidebar">
+    
+
+       <ul style="list-style: none; padding: 0; margin: 0;">
+    <li style="padding: 12px 0; cursor: pointer; display: flex; align-items: center; gap: 10px;">
+        🏠 <span>Dashboard</span>
+    </li>
+     
+    <li style="padding: 12px 0; cursor: pointer; display: flex; align-items: center; gap: 10px;">
+        📦 <span>Lost Items</span>
+    </li>
+
+    <li style="padding: 12px 0; cursor: pointer; display: flex; align-items: center; gap: 10px;">
+        ✔ <span> Claimed Items</span>
+    </li>
+
+    <li style="padding:12px 0; cursor:pointer;">👥 Users</li>
+    <li style="padding: 12px 0; cursor: pointer; display: flex; align-items: center; gap: 10px;">
+        ⚙ <span> Settings</span>
+    </li>
+    <li style="padding:12px 0; cursor:pointer;">🚪 Logout</li>
+</ul>
+
+          </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="content">
+
+        <!-- HEADER -->
+        <div class="header">Lost Item </div>
+
+       
+            
+        </div>
+
+        <!-- ANALYTICS SECTION -->
+        <div class="analytics-box">
+            
+        </div>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
